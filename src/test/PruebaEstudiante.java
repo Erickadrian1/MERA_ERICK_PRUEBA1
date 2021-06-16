@@ -6,9 +6,8 @@ import java.util.Scanner;
 
 public class PruebaEstudiante {
     static Scanner datos = new Scanner(System.in);
-    public static void main(String[] args){
-        //array de datos primitivos
-        //int [] numeros= new int [3];
+    public static void main(String[] args)
+    
         Estudiante[] estudiantes;
         int n = 3;
         estudiantes = new Estudiante[n];
